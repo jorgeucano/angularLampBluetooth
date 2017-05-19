@@ -1,3 +1,29 @@
 <h1>
   {{title}}
 </h1>
+<button (click)="connect()">Connect</button>
+<br>
+<button (click)="turnOn()">TurnOn</button>
+<button (click)="turnOff()">turnoff</button>
+<br>
+<button (click)="turnRed()">turnRed</button>
+<button (click)="turnGreen()">turnGreen</button>
+<button (click)="turnBlue()">turnBlue</button>
+
+
+<div [ngStyle]="{
+    'background-color': 'rgb('+red+','+green+','+blue+')',
+    'width': '100px',
+    'height': '100px'
+    }">
+
+</div>
+
+<br><br><br>
+<input type="number" [(ngModel)]="red" placeholder="red" />
+<br>
+<input type="number" [(ngModel)]="green" placeholder="green" />
+<br>
+<input type="number" [(ngModel)]="blue" placeholder="blue" />
+<br>
+<button (click)="changeWithForm()">Change Color</button>
