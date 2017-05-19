@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularLampBluetoothPage {
+export class AngularLampBluetoothV4Page {
   navigateTo() {
     return browser.get('/');
   }

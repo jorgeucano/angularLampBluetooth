@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { BluetoothService } from './services/bluetooth.service';
+import {BluetoothService  } from './services/bluetooth.service';
 
 @NgModule({
   declarations: [

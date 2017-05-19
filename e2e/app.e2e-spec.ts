@@ -1,10 +1,10 @@
-import { AngularLampBluetoothPage } from './app.po';
+import { AngularLampBluetoothV4Page } from './app.po';
 
-describe('angular-lamp-bluetooth App', function() {
-  let page: AngularLampBluetoothPage;
+describe('angular-lamp-bluetooth-v4 App', () => {
+  let page: AngularLampBluetoothV4Page;
 
   beforeEach(() => {
-    page = new AngularLampBluetoothPage();
+    page = new AngularLampBluetoothV4Page();
   });
 
   it('should display message saying app works', () => {
